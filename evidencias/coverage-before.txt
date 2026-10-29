@@ -1,0 +1,20 @@
+----------------|---------|----------|---------|---------|-------------------
+File            | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------------|---------|----------|---------|---------|-------------------
+All files       |   26.47 |    33.33 |      20 |   28.12 |                   
+ app.js         |       0 |        0 |       0 |       0 | 1-30              
+ divide.js      |     100 |      100 |     100 |     100 |                   
+ formatter.js   |     100 |      100 |     100 |     100 |                   
+ sum.js         |       0 |      100 |       0 |       0 | 1-3               
+ userService.js |       0 |      100 |       0 |       0 | 2-13              
+----------------|---------|----------|---------|---------|-------------------
+Jest: Coverage for statements (26.47%) does not meet "global" threshold (80%)
+Jest: Coverage for branches (33.33%) does not meet "global" threshold (70%)
+Jest: Coverage for lines (28.12%) does not meet "global" threshold (80%)
+Jest: Coverage for functions (20%) does not meet "global" threshold (80%)
+
+Test Suites: 2 passed, 2 total
+Tests:       13 passed, 13 total
+Snapshots:   0 total
+Time:        1.31 s
+Ran all test suites matching divide|formatter.
