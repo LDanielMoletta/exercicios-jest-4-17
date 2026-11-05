@@ -1,0 +1,25 @@
+FAIL src/__tests__/tempToBe.spec.js
+  ● toBe vs toEqual › should fail because toBe compares array references
+
+    expect(received).toBe(expected) // Object.is equality
+
+    If it should pass with deep equality, replace "toBe" with "toStrictEqual"
+
+    Expected: [2, 4]
+    Received: serializes to the same string
+
+    [0m [90m 3 |[39m describe([32m'toBe vs toEqual'[39m[33m,[39m () [33m=>[39m {
+     [90m 4 |[39m   it([32m'should fail because toBe compares array references'[39m[33m,[39m () [33m=>[39m {
+    [31m[1m>[22m[39m[90m 5 |[39m     expect(filterEvens([[35m1[39m[33m,[39m [35m2[39m[33m,[39m [35m3[39m[33m,[39m [35m4[39m]))[33m.[39mtoBe([[35m2[39m[33m,[39m [35m4[39m])[33m;[39m
+     [90m   |[39m                                       [31m[1m^[22m[39m
+     [90m 6 |[39m   })[33m;[39m
+     [90m 7 |[39m })[33m;[39m
+     [90m 8 |[39m[0m
+
+      at Object.toBe (src/__tests__/tempToBe.spec.js:5:39)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        0.448 s, estimated 1 s
+Ran all test suites matching tempToBe.

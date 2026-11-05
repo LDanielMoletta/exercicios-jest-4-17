@@ -1,0 +1,20 @@
+  console.log
+    value at the end of the test: 0
+
+      at Object.log (src/__tests__/tempCounterReversed.spec.js:9:13)
+
+  console.log
+    value at the end of the test: 3
+
+      at Object.log (src/__tests__/tempCounterReversed.spec.js:9:13)
+
+  console.log
+    value at the end of the test: 1
+
+      at Object.log (src/__tests__/tempCounterReversed.spec.js:9:13)
+
+Test Suites: 1 passed, 1 total
+Tests:       3 passed, 3 total
+Snapshots:   0 total
+Time:        0.444 s, estimated 1 s
+Ran all test suites matching tempCounterReversed.

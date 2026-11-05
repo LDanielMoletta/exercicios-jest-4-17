@@ -3,8 +3,8 @@
 > jest --colors=false
 
 
-Test Suites: 5 passed, 5 total
-Tests:       33 passed, 33 total
-Snapshots:   0 total
-Time:        0.917 s, estimated 2 s
+Test Suites: 13 passed, 13 total
+Tests:       75 passed, 75 total
+Snapshots:   1 passed, 1 total
+Time:        1.109 s
 Ran all test suites.

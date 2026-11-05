@@ -1,7 +1,7 @@
 {
   "name": "exercicios-jest-4-8",
   "version": "1.0.0",
-  "description": "Jest exercises 4-8: errors, structure, integration, mocks and coverage.",
+  "description": "Jest exercises 4-17: errors, structure, integration, matchers, hooks, async, snapshots and mocks.",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",

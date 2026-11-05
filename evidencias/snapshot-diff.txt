@@ -1,0 +1,29 @@
+FAIL src/__tests__/message.spec.js
+  ● getWelcomeMessage › should generate the welcome message
+
+    expect(received).toMatchSnapshot()
+
+    Snapshot name: `getWelcomeMessage should generate the welcome message 1`
+
+    Snapshot: "Olá, Maria! Bem-vindo à nossa plataforma."
+    Received: "Olá, Maria! Seja bem-vindo à nossa plataforma."
+
+    [0m [90m  7 |[39m
+     [90m  8 |[39m     [90m// Assert[39m
+    [31m[1m>[22m[39m[90m  9 |[39m     expect(message)[33m.[39mtoMatchSnapshot()[33m;[39m
+     [90m    |[39m                     [31m[1m^[22m[39m
+     [90m 10 |[39m   })[33m;[39m
+     [90m 11 |[39m })[33m;[39m
+     [90m 12 |[39m[0m
+
+      at Object.toMatchSnapshot (src/__tests__/message.spec.js:9:21)
+
+ › 1 snapshot failed.
+Snapshot Summary
+ › 1 snapshot failed from 1 test suite. Inspect your code changes or run `npm run npx -- -u` to update them.
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   1 failed, 1 total
+Time:        0.449 s, estimated 1 s
+Ran all test suites matching message.

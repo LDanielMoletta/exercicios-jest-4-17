@@ -1,0 +1,27 @@
+
+> exercicios-jest-4-8@1.0.0 test:coverage
+> jest --coverage --colors=false
+
+-----------------|---------|----------|---------|---------|-------------------
+File             | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------|---------|----------|---------|---------|-------------------
+All files        |     100 |      100 |     100 |     100 |                   
+ app.js          |     100 |      100 |     100 |     100 |                   
+ arrayFilter.js  |     100 |      100 |     100 |     100 |                   
+ calculation.js  |     100 |      100 |     100 |     100 |                   
+ counter.js      |     100 |      100 |     100 |     100 |                   
+ dataService.js  |     100 |      100 |     100 |     100 |                   
+ divide.js       |     100 |      100 |     100 |     100 |                   
+ emailService.js |     100 |      100 |     100 |     100 |                   
+ formatter.js    |     100 |      100 |     100 |     100 |                   
+ message.js      |     100 |      100 |     100 |     100 |                   
+ sum.js          |     100 |      100 |     100 |     100 |                   
+ userFactory.js  |     100 |      100 |     100 |     100 |                   
+ userService.js  |     100 |      100 |     100 |     100 |                   
+-----------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 13 passed, 13 total
+Tests:       75 passed, 75 total
+Snapshots:   1 passed, 1 total
+Time:        2.239 s
+Ran all test suites.

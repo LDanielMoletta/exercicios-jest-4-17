@@ -1,0 +1,48 @@
+C:\Users\User 1\Documents\tech-skills\aula type\exercicios-jest-4-8\node_modules\expect\build\index.js:2140
+  const innerErr = new JestAssertionError();
+                   ^
+
+JestAssertionError: expect(received).resolves.toEqual(expected) // deep equality
+
+- Expected  - 1
++ Received  + 1
+
+  Object {
+-   "ok": false,
++   "ok": true,
+  }
+    at Object.toEqual (C:\Users\User 1\Documents\tech-skills\aula type\exercicios-jest-4-8\node_modules\expect\build\index.js:2140:20)
+    at Object.toEqual (C:\Users\User 1\Documents\tech-skills\aula type\exercicios-jest-4-8\src\__tests__\tempAwait.spec.js:5:34)
+    at Promise.finally.completed (C:\Users\User 1\Documents\tech-skills\aula type\exercicios-jest-4-8\node_modules\jest-circus\build\jestAdapterInit.js:1834:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (C:\Users\User 1\Documents\tech-skills\aula type\exercicios-jest-4-8\node_modules\jest-circus\build\jestAdapterInit.js:1774:10)
+    at _callCircusTest (C:\Users\User 1\Documents\tech-skills\aula type\exercicios-jest-4-8\node_modules\jest-circus\build\jestAdapterInit.js:1167:40)
+    at _runTestInContext (C:\Users\User 1\Documents\tech-skills\aula type\exercicios-jest-4-8\node_modules\jest-circus\build\jestAdapterInit.js:1103:3)
+    at runTestWithContext (C:\Users\User 1\Documents\tech-skills\aula type\exercicios-jest-4-8\node_modules\jest-circus\build\jestAdapterInit.js:996:5)
+    at _runTestsForDescribeBlockOnce (C:\Users\User 1\Documents\tech-skills\aula type\exercicios-jest-4-8\node_modules\jest-circus\build\jestAdapterInit.js:1008:11)
+    at _runTestsForDescribeBlock (C:\Users\User 1\Documents\tech-skills\aula type\exercicios-jest-4-8\node_modules\jest-circus\build\jestAdapterInit.js:824:5)
+    at _runTestsForDescribeBlockOnce (C:\Users\User 1\Documents\tech-skills\aula type\exercicios-jest-4-8\node_modules\jest-circus\build\jestAdapterInit.js:1003:11)
+    at _runTestsForDescribeBlock (C:\Users\User 1\Documents\tech-skills\aula type\exercicios-jest-4-8\node_modules\jest-circus\build\jestAdapterInit.js:824:5)
+    at run (C:\Users\User 1\Documents\tech-skills\aula type\exercicios-jest-4-8\node_modules\jest-circus\build\jestAdapterInit.js:789:3)
+    at runAndTransformResultsToJestFormat (C:\Users\User 1\Documents\tech-skills\aula type\exercicios-jest-4-8\node_modules\jest-circus\build\jestAdapterInit.js:2300:21)
+    at jestAdapter (C:\Users\User 1\Documents\tech-skills\aula type\exercicios-jest-4-8\node_modules\jest-circus\build\runner.js:111:19)
+    at runTestInternal (C:\Users\User 1\Documents\tech-skills\aula type\exercicios-jest-4-8\node_modules\jest-runner\build\index.js:247:16)
+    at runTest (C:\Users\User 1\Documents\tech-skills\aula type\exercicios-jest-4-8\node_modules\jest-runner\build\index.js:315:7) {
+  matcherResult: {
+    actual: { ok: true },
+    expected: { ok: false },
+    message: 'expect(received).resolves.toEqual(expected) // deep equality\n' +
+      '\n' +
+      '- Expected  - 1\n' +
+      '+ Received  + 1\n' +
+      '\n' +
+      '  Object {\n' +
+      '-   "ok": false,\n' +
+      '+   "ok": true,\n' +
+      '  }',
+    name: 'toEqual',
+    pass: false
+  }
+}
+
+Node.js v24.14.0

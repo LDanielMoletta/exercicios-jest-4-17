@@ -1,0 +1,91 @@
+FAIL src/__tests__/calculation.spec.js
+  ● add › should return 5 when adding 2 + 3
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 5
+    Received: 6
+
+    [0m [90m  7 |[39m
+     [90m  8 |[39m     [90m// Assert[39m
+    [31m[1m>[22m[39m[90m  9 |[39m     expect(result)[33m.[39mtoBe([35m5[39m)[33m;[39m
+     [90m    |[39m                    [31m[1m^[22m[39m
+     [90m 10 |[39m   })[33m;[39m
+     [90m 11 |[39m
+     [90m 12 |[39m   it([32m'should return 0 when adding -1 + 1'[39m[33m,[39m () [33m=>[39m {[0m
+
+      at Object.toBe (src/__tests__/calculation.spec.js:9:20)
+
+  ● add › should return 0 when adding -1 + 1
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+    [0m [90m 15 |[39m
+     [90m 16 |[39m     [90m// Assert[39m
+    [31m[1m>[22m[39m[90m 17 |[39m     expect(result)[33m.[39mtoBe([35m0[39m)[33m;[39m
+     [90m    |[39m                    [31m[1m^[22m[39m
+     [90m 18 |[39m   })[33m;[39m
+     [90m 19 |[39m
+     [90m 20 |[39m   test[33m.[39meach([[0m
+
+      at Object.toBe (src/__tests__/calculation.spec.js:17:20)
+
+  ● add › should return 0 when adding 0 + 0
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 1
+
+    [0m [90m 27 |[39m
+     [90m 28 |[39m     [90m// Assert[39m
+    [31m[1m>[22m[39m[90m 29 |[39m     expect(result)[33m.[39mtoBe(expected)[33m;[39m
+     [90m    |[39m                    [31m[1m^[22m[39m
+     [90m 30 |[39m   })[33m;[39m
+     [90m 31 |[39m })[33m;[39m
+     [90m 32 |[39m[0m
+
+      at toBe (src/__tests__/calculation.spec.js:29:20)
+
+  ● add › should return 10 when adding 5 + 15
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 15
+    Received: 16
+
+    [0m [90m 27 |[39m
+     [90m 28 |[39m     [90m// Assert[39m
+    [31m[1m>[22m[39m[90m 29 |[39m     expect(result)[33m.[39mtoBe(expected)[33m;[39m
+     [90m    |[39m                    [31m[1m^[22m[39m
+     [90m 30 |[39m   })[33m;[39m
+     [90m 31 |[39m })[33m;[39m
+     [90m 32 |[39m[0m
+
+      at toBe (src/__tests__/calculation.spec.js:29:20)
+
+  ● add › should return -2 when adding -3 + -5
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: -5
+    Received: -4
+
+    [0m [90m 27 |[39m
+     [90m 28 |[39m     [90m// Assert[39m
+    [31m[1m>[22m[39m[90m 29 |[39m     expect(result)[33m.[39mtoBe(expected)[33m;[39m
+     [90m    |[39m                    [31m[1m^[22m[39m
+     [90m 30 |[39m   })[33m;[39m
+     [90m 31 |[39m })[33m;[39m
+     [90m 32 |[39m[0m
+
+      at toBe (src/__tests__/calculation.spec.js:29:20)
+
+Test Suites: 1 failed, 1 total
+Tests:       5 failed, 2 passed, 7 total
+Snapshots:   0 total
+Time:        0.457 s, estimated 1 s
+Ran all test suites matching calculation.

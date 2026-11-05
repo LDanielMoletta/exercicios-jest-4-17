@@ -12,7 +12,11 @@ app.get('/ping', (req, res) => {
   res.json({ status: 'ok' });
 });
 
-app.post('/api/soma', (req, res) => {
+app.get('/saudacao/:nome', (req, res) => {
+  res.json({ mensagem: `Olá, ${req.params.nome}` });
+});
+
+const sumHandler = (req, res) => {
   const { a, b } = req.body ?? {};
 
   if (!isValidNumber(a) || !isValidNumber(b)) {
@@ -21,7 +25,10 @@ app.post('/api/soma', (req, res) => {
   }
 
   res.status(200).json({ resultado: sum(a, b) });
-});
+};
+
+app.post('/soma', sumHandler);
+app.post('/api/soma', sumHandler);
 
 app.use((req, res) => {
   res.status(404).json({ error: 'Route not found.' });
